@@ -98,8 +98,8 @@ export const ContentConfigEn: ContentConfig = {
     page: [
         {pageName: "Home", pageRoute: "/", Page: Home},
         {pageName: "Home", pageRoute: "/home-page-notary-ichda-adieba", Page: Home},
-        {pageName: "Our Service", pageRoute: "/our-service", Page: OurServiceScreen},
-        {pageName: "Get In Touch", pageRoute: "/get-in-touch", Page: ContactScreen},
+        {pageName: "Our Service", pageRoute: "/notary-ichda-adieba-service", Page: OurServiceScreen},
+        {pageName: "Get In Touch", pageRoute: "/get-in-touch-notary-ichda-adieba", Page: ContactScreen},
     ],
     companyDetail: {
         fullName: "Ichda Adieba",
@@ -230,17 +230,17 @@ export const ContentConfigID: ContentConfig = {
         },
         {
             pageName: "Beranda",
-            pageRoute: "/laman-beranda-notary-ichda-adieba",
+            pageRoute: "/laman-beranda-notaris-ichda-adieba",
             Page: Home,
         },
         {
             pageName: "Layanan Kami",
-            pageRoute: "/layanan-kami",
+            pageRoute: "/layanan-kami-notaris-ichda-adieba",
             Page: OurServiceScreen,
         },
         {
             pageName: "Hubungi Kami",
-            pageRoute: "/hubungi-kami",
+            pageRoute: "/layanan-kami-notaris-ichda-adieba",
             Page: ContactScreen,
         },
     ],
