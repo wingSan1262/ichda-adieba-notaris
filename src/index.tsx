@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from "./base/app/App";
 import {ContentConfigProvider} from "./base/app/Hooks";
-// import reportWebVitals from './reportWebVitals';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 // Ensure the 'root' element is not null by using a type assertion
 const rootElement = document.getElementById("root") as HTMLElement;
