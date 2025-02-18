@@ -96,10 +96,26 @@ export interface ContentConfig {
 
 export const ContentConfigEn: ContentConfig = {
     page: [
-        {pageName: "Home", pageRoute: "/", Page: Home},
-        {pageName: "Home", pageRoute: "/home-page-notary-ichda-adieba", Page: Home},
-        {pageName: "Our Service", pageRoute: "/notary-ichda-adieba-service", Page: OurServiceScreen},
-        {pageName: "Get In Touch", pageRoute: "/get-in-touch-notary-ichda-adieba", Page: ContactScreen},
+        {
+            pageName: "Home",
+            pageRoute: "/",
+            Page: Home,
+        },
+        {
+            pageName: "Home",
+            pageRoute: "/notary-ichda-adieba/welcome-to-our-home",
+            Page: Home,
+        },
+        {
+            pageName: "Our Service",
+            pageRoute: "/notary-ichda-adieba/exclusive-notary-services",
+            Page: OurServiceScreen,
+        },
+        {
+            pageName: "Get In Touch",
+            pageRoute: "/notary-ichda-adieba/contact-us-fast-easy",
+            Page: ContactScreen,
+        },
     ],
     companyDetail: {
         fullName: "Ichda Adieba",
@@ -230,17 +246,17 @@ export const ContentConfigID: ContentConfig = {
         },
         {
             pageName: "Beranda",
-            pageRoute: "/laman-beranda-notaris-ichda-adieba",
+            pageRoute: "/notaris-ichda-adieba/selamat-datang",
             Page: Home,
         },
         {
             pageName: "Layanan Kami",
-            pageRoute: "/layanan-kami-notaris-ichda-adieba",
+            pageRoute: "/notaris-ichda-adieba/layanan-notaris-exklusif",
             Page: OurServiceScreen,
         },
         {
             pageName: "Hubungi Kami",
-            pageRoute: "/layanan-kami-notaris-ichda-adieba",
+            pageRoute: "/notaris-ichda-adieba/kontak-kami-mudah-cepat",
             Page: ContactScreen,
         },
     ],
