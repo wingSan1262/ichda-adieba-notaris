@@ -2,6 +2,7 @@
   "name": "ichda-adieba-notaris-webpage-staticweb-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wingsan1262.github.io/ichda-adieba-notaris",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@types/jest": "^29.5.14",

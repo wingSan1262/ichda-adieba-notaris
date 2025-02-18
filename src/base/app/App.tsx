@@ -1,7 +1,7 @@
 import logo from '../resource/logo.svg';
 import './App.css';
 import '../../../src/index.css';
-import {Link, Route, BrowserRouter, Routes, useNavigate, useLocation} from "react-router-dom";
+import {Link, Route, BrowserRouter, Routes, useNavigate, useLocation, Navigate} from "react-router-dom";
 import React, {useEffect, useState} from "react";
 import {colorPallette} from "./colors";
 import {useContentConfig, useIsPhone} from "./Hooks";
@@ -44,6 +44,7 @@ const App: React.FC = () => {
                             );
                         })
                     }
+                    <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
             </div>
         </BrowserRouter>
